@@ -11,6 +11,14 @@ function updatePriceByProduct(productPrice, index){
 }
 
 function getTotalPrice() {
+var priceProduct = document.getElementsByClassName('cost')
+
+console.log(parseFloat(priceProduct))
+// var numberProduct = document.getElementsByClassName('quantity')
+// var priceAll = priceProduct * numberProduct 
+
+// var priceProduct = parseFloat(document.getElementsByClassName('cost'))
+ 
 
 }
 

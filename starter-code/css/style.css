@@ -2,6 +2,32 @@ input {
   border: solid 1px black;
 }
 
+.title-main {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title-main h1 {
+      width: 25%;
+      padding-right: 390px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.box_success {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+
 .btn {
   display: inline-block;
   padding: 6px 12px;
